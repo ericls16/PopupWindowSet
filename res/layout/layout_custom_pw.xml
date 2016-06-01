@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_pw_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="5dp"
+        android:text="更多 : 左上角出来右上角消失"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_pw_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="5dp"
+        android:text="更多 : 下方出来"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_pw_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="5dp"
+        android:text="更多 : 正左下角出现(含有布局上方滑出去的消失动画)"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btn_pw_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="5dp"
+        android:text="更多 : 测试"
+        android:textColor="@android:color/white" />
+    
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:text="本例都是new一个PopupWindow对象，设置相关参数来，来弹出显示的"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="10dp"
+        android:text="以自己为参照,在正左下方,无偏移显示"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="10dp"
+        android:text="以自己为参照,在正左下方,有偏移显示"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="10dp"
+        android:text="以屏幕中心（正中间）为参照,无偏移显示"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#222222"
+        android:padding="10dp"
+        android:text="以屏幕下方为参照,下方中间,无偏移"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
